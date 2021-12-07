@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="index.css">
+    <title>JavaScriptmasSong</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <p id="greeting">🎄 Jingle all the way! 🔔</p>
+        <div class="btn-container">
+            <button class="play-btn" id="play-btn">
+                <span class="material-icons-outlined">play_arrow</span></button>
+            <button class="pause-btn" id="pause-btn">
+                <span class="material-icons-outlined">pause</span>
+            </button>                 
+            </button>
+            <button class="stop-btn" id="stop-btn">
+                <span class="material-icons-outlined">stop</span></button>                
+            </button>
+        </div>  
+        <input type="range" id="volume">          
+    </div>
+    <ul>
+        <li>
+            <div class="song-list" id="song1">
+                <img src="https://bit.ly/3pvR877" alt="">
+                <div class="song-info">
+                    <h1>Golden Freezer</h1>
+                    <p> Diego Nava </p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="song-list" id="song2">
+                <img src="https://bit.ly/3lHCicp" alt="">
+                <div class="song-info">
+                    <h1>A Very Happy Christmas </h1>
+                    <p>Michael Ramir C.</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <script src="index.js"></script>
+</body>
+</html>
